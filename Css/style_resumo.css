@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --bg: #f4f5f7;
+  --white: #ffffff;
+  --gray-light: #d9dbe1;
+  --gray: #8c8f99;
+  --gray-dark: #555555;
+  --text: #222222;
+  --blue: #2f63ff;
+  --blue-hover: #1f4fe0;
+  --blue-light: #edf2ff;
+  --tag-text: #4b6bdb;
+  --shadow-one: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-two: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 380px;
+}
+
+.imagem-box {
+  width: 100%;
+  height: 180px;
+  background: var(--gray-light);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray);
+  margin-bottom: 22px;
+  box-shadow: var(--shadow-one);
+}
+
+.icone-imagem {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: var(--shadow-two);
+  margin-bottom: 18px;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.icone-resumo {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.titulo h1 {
+  font-size: 26px;
+  color: var(--text);
+}
+
+ul {
+  padding-left: 18px;
+}
+
+li {
+  color: var(--gray-dark);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.tags span {
+  background: var(--blue-light);
+  color: var(--tag-text);
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.btn-salvar {
+  width: 100%;
+  height: 56px;
+  background: var(--blue);
+  color: var(--white);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-salvar:hover {
+  background: var(--blue-hover);
+}

@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --bg: #f4f5f7;
+  --white: #ffffff;
+  --text: #2b2b2b;
+  --gray: #7b7b7b;
+  --light: #ececef;
+  --blue: #2f63ff;
+  --blue-light: #eaf1ff;
+  --purple: #b146ff;
+  --purple-light: #f3e5ff;
+  --green: #12c95a;
+  --green-light: #e8fff1;
+  --shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background: var(--bg);
+
+  display: flex;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  padding: 14px;
+}
+
+.container {
+  width: 100%;
+  max-width: 390px;
+
+  position: relative;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.btn-voltar {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 14px;
+
+  background: var(--white);
+  color: var(--text);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  box-shadow: var(--shadow);
+}
+
+.buscar {
+  flex: 1;
+
+  height: 46px;
+
+  border: none;
+  outline: none;
+
+  border-radius: 14px;
+
+  background: var(--light);
+
+  padding: 0 16px;
+
+  font-size: 15px;
+}
+
+.card-total {
+  background: var(--blue);
+
+  border-radius: 24px;
+
+  padding: 20px;
+
+  color: var(--white);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-bottom: 24px;
+
+  box-shadow: var(--shadow);
+}
+
+.card-total span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.card-total h1 {
+  font-size: 52px;
+
+  margin: 8px 0 18px;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+}
+
+.infos p {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.infos strong {
+  font-size: 17px;
+}
+
+.linha {
+  width: 1px;
+  height: 38px;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.icone-card {
+  width: 64px;
+  height: 64px;
+
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+}
+
+.titulo-materia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 18px;
+}
+
+.titulo-materia h2 {
+  font-size: 30px;
+  color: var(--text);
+}
+
+.ver-todas {
+  color: var(--blue);
+
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.item {
+  background: var(--white);
+
+  border-radius: 20px;
+
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+
+  box-shadow: var(--shadow);
+}
+
+.icone {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  flex-shrink: 0;
+}
+
+.azul {
+  background: var(--blue-light);
+  color: var(--blue);
+}
+
+.roxo {
+  background: var(--purple-light);
+  color: var(--purple);
+}
+
+.verde {
+  background: var(--green-light);
+  color: var(--green);
+}
+
+.conteudo {
+  flex: 1;
+}
+
+.conteudo h3 {
+  font-size: 18px;
+  color: var(--text);
+
+  margin-bottom: 4px;
+}
+
+.conteudo span {
+  color: var(--gray);
+
+  font-size: 15px;
+}
+
+.conteudo p {
+  margin-top: 6px;
+
+  color: var(--gray);
+
+  font-size: 13px;
+}
+
+.seta {
+  color: var(--gray);
+
+  font-size: 26px;
+}
+
+.btn-add {
+  width: 64px;
+  height: 64px;
+
+  border-radius: 50%;
+
+  background: var(--blue);
+  color: var(--white);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  font-size: 38px;
+
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+
+  box-shadow: var(--shadow);
+}

@@ -51,10 +51,10 @@ body {
   height: 32px;
   border-radius: 50%;
   background: #edf2ff;
+  color: var(--color-blue);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--color-blue);
   font-size: 14px;
   font-weight: bold;
 }
@@ -71,13 +71,10 @@ body {
   line-height: 1.3;
 }
 
-/* BOTÃO */
-
 .btn {
   width: 100%;
   height: 36px;
   margin-top: 14px;
-  border: none;
   border-radius: 10px;
   background: var(--color-blue);
   color: white;
@@ -142,13 +139,12 @@ body {
   height: 44px;
   border-radius: 12px;
   border: 2px solid #333;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: white;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .capture {
@@ -156,10 +152,10 @@ body {
   height: 78px;
   border-radius: 50%;
   border: 5px solid #bdbdbd;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .capture::after {
@@ -174,4 +170,5 @@ body {
 .rotate {
   font-size: 30px;
   color: white;
+  text-decoration: none;
 }

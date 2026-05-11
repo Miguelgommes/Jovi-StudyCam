@@ -10,27 +10,20 @@
   --card: #ffffff;
   --text: #222;
   --gray: #777;
-  --border: #e5e7eb;
-
   --blue: #2f63ff;
   --purple: #7c4dff;
   --green: #12b76a;
-
   --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 body {
   background: var(--bg);
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   min-height: 100vh;
   padding: 20px;
 }
-
-/* OVERLAY */
 
 .overlay {
   width: 100%;
@@ -39,27 +32,19 @@ body {
   align-items: center;
 }
 
-/* CARD */
-
 .card {
   width: 100%;
   max-width: 380px;
-
   background: var(--card);
-
   border-radius: 24px;
   padding: 24px;
-
   box-shadow: var(--shadow);
 }
-
-/* TOPO */
 
 .topo {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
   margin-bottom: 28px;
 }
 
@@ -71,16 +56,12 @@ body {
 .icone-topo {
   width: 44px;
   height: 44px;
-
   border-radius: 14px;
-
   background: #eef2ff;
   color: var(--blue);
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-size: 18px;
   font-weight: bold;
 }
@@ -96,35 +77,25 @@ body {
   font-size: 14px;
 }
 
-/* BOTÃO FECHAR */
-
 .fechar {
   width: 34px;
   height: 34px;
-
   border: none;
   border-radius: 10px;
-
   background: #f1f3f7;
-
-  cursor: pointer;
   overflow: hidden;
 }
 
 .link-fechar {
   width: 100%;
   height: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   text-decoration: none;
   color: #555;
-
   font-size: 16px;
   font-weight: bold;
-
   transition: 0.2s;
 }
 
@@ -132,29 +103,20 @@ body {
   background: #e4e7ee;
 }
 
-/* OPÇÕES */
-
 .opcoes {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-/* ITEM */
-
 .item {
   display: flex;
   align-items: center;
   gap: 14px;
-
   padding: 16px;
-
   border: 2px solid transparent;
   border-radius: 18px;
-
   background: #f8f9fc;
-
-  cursor: pointer;
   transition: 0.25s;
 }
 
@@ -167,18 +129,13 @@ body {
   background: #ecfff5;
 }
 
-/* ÍCONES */
-
 .icone {
   width: 46px;
   height: 46px;
-
   border-radius: 14px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-size: 18px;
   font-weight: bold;
 
@@ -200,8 +157,6 @@ body {
   color: var(--green);
 }
 
-/* TEXTOS */
-
 .item h2 {
   font-size: 16px;
   color: var(--text);
@@ -213,24 +168,19 @@ body {
   color: var(--gray);
 }
 
-/* BOTÃO */
-
 .btn-aplicar {
   width: 100%;
   height: 50px;
-
   margin-top: 24px;
-
-  border: none;
   border-radius: 16px;
-
   background: var(--green);
   color: white;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-
-  cursor: pointer;
   transition: 0.3s;
 }
 
