@@ -103,7 +103,7 @@ body {
   box-shadow: var(--shadow);
 }
 
-.card-total span {
+.card-total h2 {
   font-size: 14px;
   opacity: 0.8;
 }
@@ -227,10 +227,6 @@ body {
   color: var(--green);
 }
 
-.conteudo {
-  flex: 1;
-}
-
 .conteudo h3 {
   font-size: 18px;
   color: var(--text);
@@ -238,7 +234,7 @@ body {
   margin-bottom: 4px;
 }
 
-.conteudo span {
+.conteudo h2 {
   color: var(--gray);
 
   font-size: 15px;

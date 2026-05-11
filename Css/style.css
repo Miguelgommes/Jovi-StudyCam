@@ -114,11 +114,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 22px;
-  font-size: 15px;
+  font-size: 10px;
   margin-bottom: 22px;
 }
 
-.modes span {
+.modes h2 {
   color: #9d9d9d;
 }
 
